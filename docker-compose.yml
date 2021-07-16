@@ -1,0 +1,7 @@
+version: '3'
+services:
+  media-tools:
+    build: .
+    tty: true
+    volumes:
+      - .:/work
